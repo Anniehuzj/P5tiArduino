@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="abi.js" defer></script>
+    <script src="main.js" defer></script>
+    <script src="app.js" defer></script>
+    <script src="sketch.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
+    <script language="javascript" type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5.serialserver@0.0.28/lib/p5.serialport.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
+    <script src="https://cdn.ethers.io/lib/ethers-5.6.umd.min.js"
+    type="application/javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+
+</head>
+<base href="/">
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">Cocoon House</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/gallery.html" class="navbar__links">Explore</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links">Gallery</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/" class="button">Submit</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>The Memory <span class="text-highlight">Get to Removed and Preserved</span> Here</h1>
+                <p>Revisit These Progress</p>
+                <label for="textInput"><span >Enter Your name to form your memory cocoon (the name could be fake or anonymous):</span></label>
+    <!-- This input element is the text box where users
+ enter a number they want to set -->
+                <input type="text" name="textInput" id="textInput">
+                <button id="submit">Transform</button>
+                <button id="testSubmit">Test Button</button>
+            </div>
+            <div class="main__img--container">
+                <img src="//picsum.photos/id/300/200" alt="bean" id="main__img"/>
+            </div>
+        </div>
+    </div>
+
+    <!-- Images Section -->
+    <div class="images">
+        <h1>COCOON HOUSE</h1>
+        <div class="images__container">
+            
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+        <p class="website__rights">NFT 2022. All rights reserved</p>
+    </div>
+</body>
+</html>
