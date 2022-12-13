@@ -105,7 +105,7 @@ async function main() {
     nameList.forEach(name => {
       let newName =
         `<div class="images__card">
-        <img src="/CocoonHouse/img/cocoonfinal2.jpg" alt="#">
+        <img src="img/cocoonfinal2.jpg" alt="#">
         <h2>Cocoon</h2>
         <p>${name}</p>
       </div>`
